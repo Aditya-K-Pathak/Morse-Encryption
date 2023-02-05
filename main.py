@@ -13,7 +13,7 @@ root = Tk()
 root.title("Password Manager")
 root.minsize(700, 700)
 root.maxsize(800, 800)
-File_Path = "I:/Users/Aditya Pathak/Downloads/Documents/Tkinter/100-days/Tkinter_Password_Manager/User_data.json"
+File_Path = "User_data.json"
 
 
 # ==================Required Definitions===================
@@ -111,7 +111,7 @@ def refresh():
 # ========================Foreground Image============================
 
 image = Image.open(
-    "I:/Users/Aditya Pathak/Downloads/Documents/Tkinter/100-days/Lock.png")
+    "Lock.png")
 pic = ImageTk.PhotoImage(image)
 label = Label(image=pic)
 label.place(x=25, y=63)
